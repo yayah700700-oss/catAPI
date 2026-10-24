@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+}
+#user{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+#buscarBtn{
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+#galeria-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2%;
+}
+.card{
+    height: 100px;
+    text-align: center;
+    border: #5c5c5c 2px solid;
+    border-radius: 10px;
+    box-shadow: #5c5c5c 2px 0px 4px 2px;
+}
+h1,h2,p{
+    color: #fff;
+}
+h2{
+    margin-top: 2%;
+}
